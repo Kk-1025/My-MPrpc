@@ -1,0 +1,108 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include",
+						"/usr/local/include",
+						"/opt/rh/devtoolset-9/root/usr/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9",
+						"/opt/rh/devtoolset-9/root/usr/lib64",
+						"/lib64",
+						"/usr/lib64",
+						"/opt/rh/devtoolset-9/root/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/usr/bin/gcc",
+				"version" : "9.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/include/c++/4.8.5",
+						"/usr/include/c++/4.8.5/x86_64-redhat-linux",
+						"/usr/include/c++/4.8.5/backward",
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include",
+						"/usr/local/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-redhat-linux/4.8.5",
+						"/usr/lib64",
+						"/lib64",
+						"/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/g++",
+				"version" : "4.8.5"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

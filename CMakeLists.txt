@@ -2,6 +2,10 @@
 cmake_minimum_required(VERSION 3.0)
 project(mprpc)
 
+# 设置要使用的gcc编译器路径
+set (CMAKE_C_COMPILER "/usr/bin/gcc")
+set (CMAKE_CXX_COMPILER "/usr/bin/g++")
+
 # 生成debug版本，可以进行gdb调试
 set(CMAKE_BUILD_TYPE "Debug")
 

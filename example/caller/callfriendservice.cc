@@ -35,6 +35,7 @@ int main(int argc, char **argv)
 
             // 输出 rpc远程调用返回的结果
             int size = response.friends_size();
+            std::cout << size << "           tttttttttttttttt\n";
 
             for (int i=0; i < size; ++i)
             {
