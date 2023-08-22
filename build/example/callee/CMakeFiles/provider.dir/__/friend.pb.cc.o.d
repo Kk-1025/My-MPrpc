@@ -1,6 +1,7 @@
 example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o: \
- /home/gayou1025/mprpc/example/friend.pb.cc /usr/include/stdc-predef.h \
- /home/gayou1025/mprpc/example/friend.pb.h \
+ /home/gayou1025/git_project/My-MPrpc/example/friend.pb.cc \
+ /usr/include/stdc-predef.h \
+ /home/gayou1025/git_project/My-MPrpc/example/friend.pb.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/limits \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

@@ -1,5 +1,5 @@
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
- /home/gayou1025/mprpc/example/callee/friendservice.cc \
+ /home/gayou1025/git_project/My-MPrpc/example/callee/friendservice.cc \
  /usr/include/stdc-predef.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/iostream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/c++config.h \
@@ -121,8 +121,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_vector.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_bvector.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/vector.tcc \
- /home/gayou1025/mprpc/src/include/mprpcapplication.h \
- /home/gayou1025/mprpc/src/include/mprpcconfig.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcapplication.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcconfig.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/unordered_map \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/ext/aligned_buffer.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/hashtable.h \
@@ -136,7 +136,7 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/limits \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/unordered_map.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/erase_if.h \
- /home/gayou1025/mprpc/src/include/mprpcchannel.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcchannel.h \
  /usr/local/include/google/protobuf/service.h \
  /usr/local/include/google/protobuf/stubs/callback.h \
  /usr/local/include/google/protobuf/stubs/macros.h \
@@ -239,7 +239,7 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/include/netinet/in.h /usr/include/bits/in.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
- /home/gayou1025/mprpc/src/include/mprpcheader.pb.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcheader.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
@@ -248,15 +248,15 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/local/include/google/protobuf/inlined_string_field.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/cassert \
- /home/gayou1025/mprpc/src/include/mprpccontroller.h \
- /home/gayou1025/mprpc/src/include/zookeeperutil.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpccontroller.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/bits/semaphore.h \
  /usr/local/include/zookeeper/zookeeper.h /usr/include/sys/time.h \
  /usr/local/include/zookeeper/proto.h \
  /usr/local/include/zookeeper/zookeeper_version.h \
  /usr/local/include/zookeeper/recordio.h \
  /usr/local/include/zookeeper/zookeeper.jute.h \
- /home/gayou1025/mprpc/src/include/mprpcprovider.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcprovider.h \
  /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
  /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
  /usr/include/muduo/net/TcpConnection.h \
@@ -323,8 +323,8 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/local/include/boost/type_traits/is_same.hpp \
  /usr/include/muduo/net/EventLoop.h /usr/include/muduo/base/Mutex.h \
  /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
- /home/gayou1025/mprpc/src/include/logger.h \
- /home/gayou1025/mprpc/src/include/lockqueue.hpp \
+ /home/gayou1025/git_project/My-MPrpc/src/include/logger.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/lockqueue.hpp \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/queue \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/deque \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_deque.h \
@@ -332,4 +332,4 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_queue.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/thread \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/condition_variable \
- /home/gayou1025/mprpc/example/friend.pb.h
+ /home/gayou1025/git_project/My-MPrpc/example/friend.pb.h

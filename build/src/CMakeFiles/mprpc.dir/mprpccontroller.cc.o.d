@@ -1,6 +1,7 @@
 src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: \
- /home/gayou1025/mprpc/src/mprpccontroller.cc /usr/include/stdc-predef.h \
- /home/gayou1025/mprpc/src/include/mprpccontroller.h \
+ /home/gayou1025/git_project/My-MPrpc/src/mprpccontroller.cc \
+ /usr/include/stdc-predef.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpccontroller.h \
  /usr/local/include/google/protobuf/service.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/string \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/c++config.h \

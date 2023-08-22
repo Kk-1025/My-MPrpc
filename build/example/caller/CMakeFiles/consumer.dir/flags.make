@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gayou1025/mprpc/src/include -I/home/gayou1025/mprpc/example
+CXX_INCLUDES = -I/home/gayou1025/git_project/My-MPrpc/src/include -I/home/gayou1025/git_project/My-MPrpc/example
 
 CXX_FLAGS = -g
 

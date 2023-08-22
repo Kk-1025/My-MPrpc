@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gayou1025/mprpc
+CMAKE_SOURCE_DIR = /home/gayou1025/git_project/My-MPrpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gayou1025/mprpc/build
+CMAKE_BINARY_DIR = /home/gayou1025/git_project/My-MPrpc/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gayou1025/mprpc/build/CMakeFiles /home/gayou1025/mprpc/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gayou1025/git_project/My-MPrpc/build/CMakeFiles /home/gayou1025/git_project/My-MPrpc/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gayou1025/mprpc/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gayou1025/git_project/My-MPrpc/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

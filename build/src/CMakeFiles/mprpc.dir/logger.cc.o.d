@@ -1,6 +1,8 @@
-src/CMakeFiles/mprpc.dir/logger.cc.o: /home/gayou1025/mprpc/src/logger.cc \
- /usr/include/stdc-predef.h /home/gayou1025/mprpc/src/include/logger.h \
- /home/gayou1025/mprpc/src/include/lockqueue.hpp \
+src/CMakeFiles/mprpc.dir/logger.cc.o: \
+ /home/gayou1025/git_project/My-MPrpc/src/logger.cc \
+ /usr/include/stdc-predef.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/logger.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/lockqueue.hpp \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/queue \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/deque \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_algobase.h \

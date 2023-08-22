@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gayou1025/mprpc/bin/consumer"
-  "/home/gayou1025/mprpc/bin/consumer.pdb"
+  "/home/gayou1025/git_project/My-MPrpc/bin/consumer"
+  "/home/gayou1025/git_project/My-MPrpc/bin/consumer.pdb"
   "CMakeFiles/consumer.dir/__/friend.pb.cc.o"
   "CMakeFiles/consumer.dir/__/friend.pb.cc.o.d"
   "CMakeFiles/consumer.dir/callfriendservice.cc.o"

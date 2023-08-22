@@ -1,6 +1,7 @@
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: \
- /home/gayou1025/mprpc/src/mprpcconfig.cc /usr/include/stdc-predef.h \
- /home/gayou1025/mprpc/src/include/mprpcconfig.h \
+ /home/gayou1025/git_project/My-MPrpc/src/mprpcconfig.cc \
+ /usr/include/stdc-predef.h \
+ /home/gayou1025/git_project/My-MPrpc/src/include/mprpcconfig.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/iostream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

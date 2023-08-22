@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gayou1025/mprpc
+CMAKE_SOURCE_DIR = /home/gayou1025/git_project/My-MPrpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gayou1025/mprpc/build
+CMAKE_BINARY_DIR = /home/gayou1025/git_project/My-MPrpc/build
 
 # Include any dependencies generated for this target.
 include example/caller/CMakeFiles/consumer.dir/depend.make
@@ -70,32 +70,32 @@ include example/caller/CMakeFiles/consumer.dir/progress.make
 include example/caller/CMakeFiles/consumer.dir/flags.make
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/gayou1025/mprpc/example/caller/callfriendservice.cc
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: /home/gayou1025/git_project/My-MPrpc/example/caller/callfriendservice.cc
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -MF CMakeFiles/consumer.dir/callfriendservice.cc.o.d -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/gayou1025/mprpc/example/caller/callfriendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -MF CMakeFiles/consumer.dir/callfriendservice.cc.o.d -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/gayou1025/git_project/My-MPrpc/example/caller/callfriendservice.cc
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
-example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: /home/gayou1025/mprpc/example/friend.pb.cc
+example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: /home/gayou1025/git_project/My-MPrpc/example/friend.pb.cc
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -MF CMakeFiles/consumer.dir/__/friend.pb.cc.o.d -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/gayou1025/mprpc/example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -MF CMakeFiles/consumer.dir/__/friend.pb.cc.o.d -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/gayou1025/git_project/My-MPrpc/example/friend.pb.cc
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
-	cd /home/gayou1025/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
 # Object files for target consumer
 consumer_OBJECTS = \
@@ -105,23 +105,23 @@ consumer_OBJECTS = \
 # External object files for target consumer
 consumer_EXTERNAL_OBJECTS =
 
-/home/gayou1025/mprpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
-/home/gayou1025/mprpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
-/home/gayou1025/mprpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
-/home/gayou1025/mprpc/bin/consumer: /home/gayou1025/mprpc/lib/libmprpc.a
-/home/gayou1025/mprpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/gayou1025/mprpc/bin/consumer"
-	cd /home/gayou1025/mprpc/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
+/home/gayou1025/git_project/My-MPrpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
+/home/gayou1025/git_project/My-MPrpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
+/home/gayou1025/git_project/My-MPrpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
+/home/gayou1025/git_project/My-MPrpc/bin/consumer: /home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a
+/home/gayou1025/git_project/My-MPrpc/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/gayou1025/git_project/My-MPrpc/bin/consumer"
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-example/caller/CMakeFiles/consumer.dir/build: /home/gayou1025/mprpc/bin/consumer
+example/caller/CMakeFiles/consumer.dir/build: /home/gayou1025/git_project/My-MPrpc/bin/consumer
 .PHONY : example/caller/CMakeFiles/consumer.dir/build
 
 example/caller/CMakeFiles/consumer.dir/clean:
-	cd /home/gayou1025/mprpc/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
+	cd /home/gayou1025/git_project/My-MPrpc/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
 .PHONY : example/caller/CMakeFiles/consumer.dir/clean
 
 example/caller/CMakeFiles/consumer.dir/depend:
-	cd /home/gayou1025/mprpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gayou1025/mprpc /home/gayou1025/mprpc/example/caller /home/gayou1025/mprpc/build /home/gayou1025/mprpc/build/example/caller /home/gayou1025/mprpc/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gayou1025/git_project/My-MPrpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gayou1025/git_project/My-MPrpc /home/gayou1025/git_project/My-MPrpc/example/caller /home/gayou1025/git_project/My-MPrpc/build /home/gayou1025/git_project/My-MPrpc/build/example/caller /home/gayou1025/git_project/My-MPrpc/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : example/caller/CMakeFiles/consumer.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gayou1025/mprpc
+CMAKE_SOURCE_DIR = /home/gayou1025/git_project/My-MPrpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gayou1025/mprpc/build
+CMAKE_BINARY_DIR = /home/gayou1025/git_project/My-MPrpc/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/mprpc.dir/depend.make
@@ -70,116 +70,116 @@ include src/CMakeFiles/mprpc.dir/progress.make
 include src/CMakeFiles/mprpc.dir/flags.make
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: /home/gayou1025/mprpc/src/mprpcapplication.cc
+src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpcapplication.cc
 src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o -MF CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/gayou1025/mprpc/src/mprpcapplication.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o -MF CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpcapplication.cc
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcapplication.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpcapplication.cc > CMakeFiles/mprpc.dir/mprpcapplication.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpcapplication.cc > CMakeFiles/mprpc.dir/mprpcapplication.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcapplication.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpcapplication.cc -o CMakeFiles/mprpc.dir/mprpcapplication.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpcapplication.cc -o CMakeFiles/mprpc.dir/mprpcapplication.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: /home/gayou1025/mprpc/src/mprpcconfig.cc
+src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpcconfig.cc
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o -MF CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/gayou1025/mprpc/src/mprpcconfig.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o -MF CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpcconfig.cc
 
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcconfig.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpcconfig.cc > CMakeFiles/mprpc.dir/mprpcconfig.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpcconfig.cc > CMakeFiles/mprpc.dir/mprpcconfig.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcconfig.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpcconfig.cc -o CMakeFiles/mprpc.dir/mprpcconfig.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpcconfig.cc -o CMakeFiles/mprpc.dir/mprpcconfig.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o: /home/gayou1025/mprpc/src/mprpcheader.pb.cc
+src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpcheader.pb.cc
 src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o -MF CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o.d -o CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o -c /home/gayou1025/mprpc/src/mprpcheader.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o -MF CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o.d -o CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpcheader.pb.cc
 
 src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcheader.pb.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpcheader.pb.cc > CMakeFiles/mprpc.dir/mprpcheader.pb.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpcheader.pb.cc > CMakeFiles/mprpc.dir/mprpcheader.pb.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcheader.pb.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpcheader.pb.cc -o CMakeFiles/mprpc.dir/mprpcheader.pb.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpcheader.pb.cc -o CMakeFiles/mprpc.dir/mprpcheader.pb.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o: /home/gayou1025/mprpc/src/mprpcprovider.cc
+src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpcprovider.cc
 src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o -MF CMakeFiles/mprpc.dir/mprpcprovider.cc.o.d -o CMakeFiles/mprpc.dir/mprpcprovider.cc.o -c /home/gayou1025/mprpc/src/mprpcprovider.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o -MF CMakeFiles/mprpc.dir/mprpcprovider.cc.o.d -o CMakeFiles/mprpc.dir/mprpcprovider.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpcprovider.cc
 
 src/CMakeFiles/mprpc.dir/mprpcprovider.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcprovider.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpcprovider.cc > CMakeFiles/mprpc.dir/mprpcprovider.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpcprovider.cc > CMakeFiles/mprpc.dir/mprpcprovider.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpcprovider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcprovider.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpcprovider.cc -o CMakeFiles/mprpc.dir/mprpcprovider.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpcprovider.cc -o CMakeFiles/mprpc.dir/mprpcprovider.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: /home/gayou1025/mprpc/src/mprpcchannel.cc
+src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpcchannel.cc
 src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o -MF CMakeFiles/mprpc.dir/mprpcchannel.cc.o.d -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/gayou1025/mprpc/src/mprpcchannel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o -MF CMakeFiles/mprpc.dir/mprpcchannel.cc.o.d -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpcchannel.cc
 
 src/CMakeFiles/mprpc.dir/mprpcchannel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcchannel.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpcchannel.cc > CMakeFiles/mprpc.dir/mprpcchannel.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpcchannel.cc > CMakeFiles/mprpc.dir/mprpcchannel.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpcchannel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcchannel.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpcchannel.cc -o CMakeFiles/mprpc.dir/mprpcchannel.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpcchannel.cc -o CMakeFiles/mprpc.dir/mprpcchannel.cc.s
 
 src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: /home/gayou1025/mprpc/src/mprpccontroller.cc
+src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: /home/gayou1025/git_project/My-MPrpc/src/mprpccontroller.cc
 src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o -MF CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/gayou1025/mprpc/src/mprpccontroller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o -MF CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/mprpccontroller.cc
 
 src/CMakeFiles/mprpc.dir/mprpccontroller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpccontroller.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/mprpccontroller.cc > CMakeFiles/mprpc.dir/mprpccontroller.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/mprpccontroller.cc > CMakeFiles/mprpc.dir/mprpccontroller.cc.i
 
 src/CMakeFiles/mprpc.dir/mprpccontroller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpccontroller.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/mprpccontroller.cc -o CMakeFiles/mprpc.dir/mprpccontroller.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/mprpccontroller.cc -o CMakeFiles/mprpc.dir/mprpccontroller.cc.s
 
 src/CMakeFiles/mprpc.dir/logger.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/logger.cc.o: /home/gayou1025/mprpc/src/logger.cc
+src/CMakeFiles/mprpc.dir/logger.cc.o: /home/gayou1025/git_project/My-MPrpc/src/logger.cc
 src/CMakeFiles/mprpc.dir/logger.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mprpc.dir/logger.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/logger.cc.o -MF CMakeFiles/mprpc.dir/logger.cc.o.d -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/gayou1025/mprpc/src/logger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mprpc.dir/logger.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/logger.cc.o -MF CMakeFiles/mprpc.dir/logger.cc.o.d -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/logger.cc
 
 src/CMakeFiles/mprpc.dir/logger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/logger.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/logger.cc > CMakeFiles/mprpc.dir/logger.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/logger.cc > CMakeFiles/mprpc.dir/logger.cc.i
 
 src/CMakeFiles/mprpc.dir/logger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/logger.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/logger.cc -o CMakeFiles/mprpc.dir/logger.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/logger.cc -o CMakeFiles/mprpc.dir/logger.cc.s
 
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o: src/CMakeFiles/mprpc.dir/flags.make
-src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o: /home/gayou1025/mprpc/src/zookeeperutil.cc
+src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o: /home/gayou1025/git_project/My-MPrpc/src/zookeeperutil.cc
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o -MF CMakeFiles/mprpc.dir/zookeeperutil.cc.o.d -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/gayou1025/mprpc/src/zookeeperutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o -MF CMakeFiles/mprpc.dir/zookeeperutil.cc.o.d -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/gayou1025/git_project/My-MPrpc/src/zookeeperutil.cc
 
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/zookeeperutil.cc.i"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/mprpc/src/zookeeperutil.cc > CMakeFiles/mprpc.dir/zookeeperutil.cc.i
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gayou1025/git_project/My-MPrpc/src/zookeeperutil.cc > CMakeFiles/mprpc.dir/zookeeperutil.cc.i
 
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/zookeeperutil.cc.s"
-	cd /home/gayou1025/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/mprpc/src/zookeeperutil.cc -o CMakeFiles/mprpc.dir/zookeeperutil.cc.s
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gayou1025/git_project/My-MPrpc/src/zookeeperutil.cc -o CMakeFiles/mprpc.dir/zookeeperutil.cc.s
 
 # Object files for target mprpc
 mprpc_OBJECTS = \
@@ -195,29 +195,29 @@ mprpc_OBJECTS = \
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
 
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/logger.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
-/home/gayou1025/mprpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gayou1025/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library /home/gayou1025/mprpc/lib/libmprpc.a"
-	cd /home/gayou1025/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
-	cd /home/gayou1025/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcprovider.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/logger.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
+/home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gayou1025/git_project/My-MPrpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library /home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a"
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/mprpc.dir/build: /home/gayou1025/mprpc/lib/libmprpc.a
+src/CMakeFiles/mprpc.dir/build: /home/gayou1025/git_project/My-MPrpc/lib/libmprpc.a
 .PHONY : src/CMakeFiles/mprpc.dir/build
 
 src/CMakeFiles/mprpc.dir/clean:
-	cd /home/gayou1025/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean.cmake
+	cd /home/gayou1025/git_project/My-MPrpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/mprpc.dir/clean
 
 src/CMakeFiles/mprpc.dir/depend:
-	cd /home/gayou1025/mprpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gayou1025/mprpc /home/gayou1025/mprpc/src /home/gayou1025/mprpc/build /home/gayou1025/mprpc/build/src /home/gayou1025/mprpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gayou1025/git_project/My-MPrpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gayou1025/git_project/My-MPrpc /home/gayou1025/git_project/My-MPrpc/src /home/gayou1025/git_project/My-MPrpc/build /home/gayou1025/git_project/My-MPrpc/build/src /home/gayou1025/git_project/My-MPrpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/mprpc.dir/depend
 
